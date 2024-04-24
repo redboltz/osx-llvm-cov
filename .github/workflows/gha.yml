@@ -24,9 +24,7 @@ jobs:
         brew install --force lcov llvm
     - name: Check
       run: |
-        export PATH="/usr/local/opt/llvm/bin:$PATH"
         export PATH="/Library/Developer/CommandLineTools/usr/bin/llvm-cov:$PATH"
-        ls -al /usr/local/opt/llvm/bin/
         ls -al /Library/Developer/CommandLineTools/usr/bin//
         find / -name llvm-cov -print
         llvm-cov --version
