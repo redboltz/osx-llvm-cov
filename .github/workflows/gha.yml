@@ -21,7 +21,7 @@ jobs:
         rm -f /usr/local/bin/idle3*
         rm -f /usr/local/bin/pydoc3*
         rm -f /usr/local/bin/python3*
-        brew install --force lcov llvm llvm-cov
+        brew install --force lcov llvm
     - name: Check
       run: |
         llvm-cov --version
