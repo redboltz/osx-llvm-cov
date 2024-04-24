@@ -25,3 +25,4 @@ jobs:
     - name: Check
       run: |
         llvm-cov --version
+        find / -name llvm-cov -print
