@@ -26,5 +26,4 @@ jobs:
       run: |
         export PATH="/Library/Developer/CommandLineTools/usr/bin/llvm-cov:$PATH"
         ls -al /Library/Developer/CommandLineTools/usr/bin//
-        find / -name llvm-cov -print
         llvm-cov --version
